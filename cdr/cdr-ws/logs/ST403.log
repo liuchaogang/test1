@@ -1,0 +1,24 @@
+2017-09-07 20:36:52.609 [Thread-11] DEBUG ST403Logger
+				-消息入库uh_dc_ord（），医嘱号：医嘱号
+2017-09-07 20:36:52.652 [Thread-11] DEBUG ST403Logger
+				-消息入库uh_dc_ord_op（），申请单号：申请单号
+2017-09-07 20:39:54.643 [Thread-18] DEBUG ST403Logger
+				-消息入库uh_dc_ord（），医嘱号：医嘱号
+2017-09-07 20:39:54.664 [Thread-18] DEBUG ST403Logger
+				-消息入库uh_dc_ord_op（），申请单号：申请单号
+2017-09-07 20:41:07.059 [Thread-25] DEBUG ST403Logger
+				-消息入库uh_dc_ord（），医嘱号：医嘱号
+2017-09-07 20:41:07.087 [Thread-25] DEBUG ST403Logger
+				-消息入库uh_dc_ord_op（），申请单号：申请单号
+2017-09-07 20:48:01.939 [Thread-33] DEBUG ST403Logger
+				-消息入库uh_dc_ord（），医嘱号：医嘱号
+2017-09-07 20:48:01.968 [Thread-33] DEBUG ST403Logger
+				-消息入库uh_dc_ord_op（），申请单号：申请单号
+2017-09-07 20:51:37.574 [Thread-10] DEBUG ST403Logger
+				-消息入库uh_dc_ord（），医嘱号：医嘱号
+2017-09-07 20:51:37.615 [Thread-10] DEBUG ST403Logger
+				-消息入库uh_dc_ord_op（），申请单号：申请单号
+2017-09-07 21:00:16.890 [Thread-23] DEBUG ST403Logger
+				-消息入库uh_dc_ord（），医嘱号：医嘱号
+2017-09-07 21:00:16.914 [Thread-23] DEBUG ST403Logger
+				-消息入库uh_dc_ord_op（），申请单号：申请单号

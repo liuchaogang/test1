@@ -1,0 +1,10 @@
+2017-09-07 20:18:05.398 [Thread-19] INFO  ST401Logger
+				-st401没有找到就诊记录：就诊号pvcode:3434
+2017-09-07 20:19:58.618 [Thread-20] INFO  ST401Logger
+				-st401没有找到就诊记录：就诊号pvcode:3434
+2017-09-07 20:30:33.347 [Thread-10] INFO  ST401Logger
+				-st401没有找到就诊记录：就诊号pvcode:3434
+2017-09-07 20:34:15.825 [Thread-10] DEBUG ST401Logger
+				-消息入库uh_dc_ord（），医嘱号：申请单号
+2017-09-07 20:34:15.835 [Thread-10] DEBUG ST401Logger
+				-消息入库uh_dc_ord_lis（），申请单号：申请单号

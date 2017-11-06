@@ -1,0 +1,162 @@
+2017-09-08 11:27:14.183 [restartedMain] INFO  com.yonyou.CDRWsApplication -Starting CDRWsApplication on DESKTOP-7S3CVIH with PID 7184 (D:\eclipseworkspace\hl7\cdr\cdr-ws\target\classes started by lcg in D:\eclipseworkspace\hl7\cdr\cdr-ws)
+2017-09-08 11:27:14.200 [restartedMain] INFO  com.yonyou.CDRWsApplication -No active profile set, falling back to default profiles: default
+2017-09-08 11:27:14.487 [restartedMain] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext -Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79020391: startup date [Fri Sep 08 11:27:14 CST 2017]; root of context hierarchy
+2017-09-08 11:27:19.452 [restartedMain] INFO  o.s.b.f.xml.XmlBeanDefinitionReader -Loading XML bean definitions from class path resource [META-INF/cxf/cxf.xml]
+2017-09-08 11:27:22.456 [restartedMain] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor -JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2017-09-08 11:27:25.107 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat initialized with port(s): 8990 (http)
+2017-09-08 11:27:25.147 [restartedMain] INFO  o.a.catalina.core.StandardService -Starting service [Tomcat]
+2017-09-08 11:27:25.150 [restartedMain] INFO  o.a.catalina.core.StandardEngine -Starting Servlet Engine: Apache Tomcat/8.5.15
+2017-09-08 11:27:25.425 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring embedded WebApplicationContext
+2017-09-08 11:27:25.426 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader -Root WebApplicationContext: initialization completed in 10939 ms
+2017-09-08 11:27:26.094 [localhost-startStop-1] WARN  o.s.b.c.p.ConfigurationPropertiesBindingPostProcessor -The @ConfigurationProperties bean class org.apache.cxf.spring.boot.autoconfigure.CxfProperties contains validation constraints but had not been annotated with @Validated.
+2017-09-08 11:27:26.095 [localhost-startStop-1] WARN  o.s.b.c.p.ConfigurationPropertiesBindingPostProcessor -The @ConfigurationProperties bean class org.apache.cxf.spring.boot.autoconfigure.CxfProperties contains validation constraints but had not been annotated with @Validated.
+2017-09-08 11:27:26.095 [localhost-startStop-1] WARN  o.s.b.c.p.ConfigurationPropertiesBindingPostProcessor -The @ConfigurationProperties bean class org.apache.cxf.spring.boot.autoconfigure.CxfProperties contains validation constraints but had not been annotated with @Validated.
+2017-09-08 11:27:26.436 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-08 11:27:26.440 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'statViewServlet' to [/druid/*]
+2017-09-08 11:27:26.441 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean -Mapping servlet: 'CXFServlet' to [/yonyou-ws/*]
+2017-09-08 11:27:26.449 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-08 11:27:26.450 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-08 11:27:26.451 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-08 11:27:26.451 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-08 11:27:26.452 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean -Mapping filter: 'webStatFilter' to urls: [/*]
+2017-09-08 11:27:28.457 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-08 11:27:28.762 [restartedMain] INFO  o.h.jpa.internal.util.LogHelper -HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2017-09-08 11:27:28.984 [restartedMain] INFO  org.hibernate.Version -HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-08 11:27:28.987 [restartedMain] INFO  org.hibernate.cfg.Environment -HHH000206: hibernate.properties not found
+2017-09-08 11:27:28.990 [restartedMain] INFO  org.hibernate.cfg.Environment -HHH000021: Bytecode provider name : javassist
+2017-09-08 11:27:29.135 [restartedMain] INFO  o.h.annotations.common.Version -HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-08 11:27:29.574 [restartedMain] INFO  c.alibaba.druid.pool.DruidDataSource -{dataSource-1} inited
+2017-09-08 11:27:30.097 [restartedMain] INFO  org.hibernate.dialect.Dialect -HHH000400: Using dialect: org.hibernate.dialect.SQLServer2008Dialect
+2017-09-08 11:27:31.299 [restartedMain] WARN  org.hibernate.id.UUIDHexGenerator -HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+2017-09-08 11:27:33.527 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean -Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-08 11:27:36.174 [restartedMain] INFO  o.h.h.i.QueryTranslatorFactoryInitiator -HHH000397: Using ASTQueryTranslatorFactory
+2017-09-08 11:27:38.465 [restartedMain] INFO  o.a.c.w.s.f.ReflectionServiceFactoryBean -Creating Service {http://webservice.yonyou.com/}MessageV3ServiceImplService from class com.yonyou.webservice.MessageV3Service
+2017-09-08 11:27:39.391 [restartedMain] INFO  org.apache.cxf.endpoint.ServerImpl -Setting the server's publish address to be /MessageV3Service
+2017-09-08 11:27:40.221 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter -Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79020391: startup date [Fri Sep 08 11:27:14 CST 2017]; root of context hierarchy
+2017-09-08 11:27:40.374 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-09-08 11:27:40.376 [restartedMain] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-09-08 11:27:40.492 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-08 11:27:40.492 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-08 11:27:40.609 [restartedMain] INFO  o.s.w.s.h.SimpleUrlHandlerMapping -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-09-08 11:27:41.494 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer -LiveReload server is running on port 35729
+2017-09-08 11:27:41.693 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Registering beans for JMX exposure on startup
+2017-09-08 11:27:41.696 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Bean with name 'dataSource' has been autodetected for JMX exposure
+2017-09-08 11:27:41.705 [restartedMain] INFO  o.s.j.e.a.AnnotationMBeanExporter -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+2017-09-08 11:27:41.865 [restartedMain] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer -Tomcat started on port(s): 8990 (http)
+2017-09-08 11:27:41.887 [restartedMain] INFO  com.yonyou.CDRWsApplication -Started CDRWsApplication in 29.546 seconds (JVM running for 31.449)
+2017-09-08 11:28:11.861 [http-nio-8990-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-08 11:28:11.861 [http-nio-8990-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization started
+2017-09-08 11:28:11.926 [http-nio-8990-exec-1] INFO  o.s.web.servlet.DispatcherServlet -FrameworkServlet 'dispatcherServlet': initialization completed in 64 ms
+2017-09-08 11:29:53.538 [Thread-10] DEBUG MessageProcessThreadLogger -消息实体内容:{
+	"actionType":"A",
+	"creationTime":"20170323123045",
+	"id":"S001",
+	"msgId":"sf",
+	"requestNote":{
+		"chargeStatus":"1",
+		"checkGoal":"keep systolic blood pressure between 90 and 110 mm Hg.",
+		"checkItem":[
+			{
+				"checkItemCode":"检验项目编码",
+				"checkItemName":"检验项目名称",
+				"checkItemTypeCode":"检验类型编码",
+				"checkItemTypeName":"检验类型名称",
+				"ordNo":"",
+				"serialNum":"1"
+			}
+		],
+		"confirmDiagnosisMark":"0",
+		"confirmPersonName":"确认人姓名",
+		"confirmPersonNo":"10000",
+		"confirmTime":"20170323123045",
+		"containerCode":"容器编码",
+		"containerName":"容器名称",
+		"diagnosisCode":"诊断编码",
+		"diagnosisDoctorName":"诊断医生姓名",
+		"diagnosisDoctorNo":"10000",
+		"diagnosisName":"诊断名称",
+		"diagnosisTime":"20170323123045",
+		"diagnosisTypeCode":"1",
+		"diagnosisTypeName":"门诊诊断",
+		"diseaseDesc":"对患者本次疾病相关的主要症状及其持续时间的描述",
+		"entryPersonName":"录入人姓名",
+		"entryPersonNo":"10000",
+		"entryTime":"20170323123045",
+		"execDeptCode":"003",
+		"execDeptName":"执行科室名称",
+		"inspectionPersonId":"10000",
+		"inspectionPersonName":"送检人姓名",
+		"inspectionTime":"20130303020404",
+		"isAdaptCode":"02",
+		"isAdaptValue":"false",
+		"isMedicineCode":"04",
+		"isMedicineValue":"false",
+		"isUrgentCode":"03",
+		"isUrgentValue":"false",
+		"nowDiseaseHistoryCode":"DE04.01.119.00",
+		"nowDiseaseHistoryName":"主诉",
+		"primaryDiagnosisMark":"1",
+		"priorityDegree":"紧急",
+		"pvInfo":{
+			"address":"",
+			"age":"年龄",
+			"bedNo":"001",
+			"contact":"",
+			"deptCode":"12312",
+			"deptName":"呼吸内科",
+			"empiId":"E111111",
+			"groupCode":"所属集团编码",
+			"groupName":"所属集团名称",
+			"hisOrgCode":"医院机构编码",
+			"hisOrgName":"XXX医院",
+			"inpatientNo":"22222",
+			"lesionCode":"1A",
+			"lesionName":"1病区",
+			"name":"姓名",
+			"outpatientNo":"11111",
+			"patientId":"111111",
+			"pvSerialNo":"3434",
+			"pvTime":"1",
+			"pvTypeCode":"1",
+			"pvTypeName":"门诊",
+			"sex":"男",
+			"sexCode":"1",
+			"sickRoomNo":"001"
+		},
+		"requestDeptCode":"",
+		"requestDeptName":"",
+		"requestDoctorCode":"10000",
+		"requestDoctorName":"申请医生姓名",
+		"requestNoteEndTime":"20110202030303",
+		"requestNoteNo":"申请单号",
+		"requestNoteStartTime":"20110202030303",
+		"requestNoteStatusCode":"completed",
+		"requestNoteTypeCode":"申请单类型编码",
+		"requestNoteTypeName":"申请单类型名称",
+		"requestTime":"20170323123045",
+		"sampleCollectAddr":"采集地点",
+		"sampleCollectTime":"20130303020404",
+		"sampleFixativeName":"福尔马林",
+		"sampleNo":"SP1234567890",
+		"samplePersonId":"10000",
+		"samplePersonName":"采集人姓名",
+		"sampleReceivePersonId":"10000",
+		"sampleReceivePersonName":"接收人姓名",
+		"sampleReceiveTime":"20130303020404",
+		"sampleStateDesc":"对受检标本状态的描述",
+		"sampleTypeCode":"标本类别代码",
+		"sampleTypeName":"标本类别名称",
+		"seperatableInd":"false",
+		"symptomCode":"DE04.01.117.00",
+		"symptomDesc":"对患者出现症状的详细描述",
+		"symptomName":"症状描述"
+	},
+	"template":"ST402"
+}
+2017-09-08 11:29:53.718 [Thread-10] DEBUG MessageProcessThreadLogger -消息类型：ST402
+2017-09-08 11:29:53.719 [Thread-10] DEBUG MessageProcessThreadLogger -消息校验……
+2017-09-08 11:29:53.739 [Thread-10] DEBUG MessageProcessThreadLogger -依赖校验……
+2017-09-08 11:29:53.740 [Thread-10] DEBUG MessageProcessThreadLogger -业务处理……
+2017-09-08 11:29:53.830 [Thread-10] DEBUG DateUtilsLogger -日期为空，无法转换转换标准格式！
